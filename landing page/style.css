@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+  background-image: url(https://ithemes.com/wp-content/uploads/2019/08/What-is-Your-Website-Design-Process-Blog-Post-Feature-Image-36119-01-1536x805.png);
+  background-size: cover;
+}
+.navbar{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+}
+.logo img{
+    width: 10%;
+}
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ 
+}
+.main{
+    width: 100%;
+    
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+   
+
+}
+.menu li a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    color: rgb(64, 0, 255);
+    text-decoration: color(#fff red green blue);
+}
+.main p{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+.main :nth-child(2){
+    font-size: 20px;
+    display: flex;
+    font-style: italic;
+}
+.search{
+    float: right;
+    transform: translateY(20px);
+    padding: 12px 75px;
+    border-radius: 10px;
+}
